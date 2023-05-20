@@ -21,7 +21,7 @@ void notifyOnFire()
  
   if (isButtonPressed==0 && flag==0) {
     Serial.println("Its Raining");
-     Blynk.email("shameer50@gmail.com", "Alert", "It's Raining");
+     //Blynk.email("shameer50@gmail.com", "Alert", "It's Raining");
      Blynk.logEvent("rain_alert","Its Raining");
     flag=1;
   }
