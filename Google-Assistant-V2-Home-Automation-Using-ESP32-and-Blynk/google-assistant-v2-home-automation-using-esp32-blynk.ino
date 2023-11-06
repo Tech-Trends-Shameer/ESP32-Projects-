@@ -18,17 +18,11 @@
 
  *************************************************************
   This example runs directly on NodeMCU.
-
-  Note: This requires ESP8266 support package:
-    https://github.com/esp8266/Arduino
+ 
 
   Please be sure to select the right NodeMCU module
   in the Tools -> Board menu!
-
-  For advanced settings please follow ESP examples :
-   - ESP8266_Standalone_Manual_IP.ino
-   - ESP8266_Standalone_SmartConfig.ino
-   - ESP8266_Standalone_SSL.ino
+ 
 
   Change WiFi ssid, pass, and Blynk auth token to run :)
   Feel free to apply it to any other example. It's simple!
