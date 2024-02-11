@@ -9,7 +9,7 @@
 #include <AsyncTCP.h>
 #include <ESPAsyncWebServer.h>
 
-
+LiquidCrystal_I2C lcd(0x27, 16, 2); 
 //C00reates an instance of an AsyncWebServer object named server that listens for incoming HTTP requests on port 80
 AsyncWebServer server(80);
 
