@@ -1,4 +1,4 @@
-const int soilMoisturePin = A0; // Analog pin connected to the sensor
+const int soilMoisturePin = 34; // Analog pin connected to the sensor
 
 void setup() {
   Serial.begin(115200); // Initialize Serial Monitor
